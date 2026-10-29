@@ -1,0 +1,17 @@
+# 비밀 값·환경 설정 — GitHub에 올리지 않기
+.env
+.env.*
+!.env.example
+
+# 설치·빌드 결과물
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# 기타
+.DS_Store
+*.log
+.vercel
